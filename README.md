@@ -1,19 +1,14 @@
-# Kandji UI Automation Tests (Selenium + Pytest)
+# Kandji HW for Automation Tests 
 
 This repo contains a UI automation framework using **Selenium + Pytest** for the Kandji web application.
 
-## Why Selenium + Python?
 
-- Selenium is a proven, stable, cross-browser framework
-- Pytest makes tests readable and scalable
-- Works great with CI/CD pipelines
-
-## Structure
+## Structure of the project
 
 - `pages/` → Page Object Model
 - `tests/` → Test cases
-- `utils/` → Helpers (config)
-- `.github/workflows/` → Example GitHub Actions config
+- `utils/` → Helpers 
+- `.github/workflows/` → Added a small CI tool
 
 ## Running Locally
 
@@ -32,18 +27,20 @@ This repo contains a UI automation framework using **Selenium + Pytest** for the
 ## CI/CD Integration
 
 - GitHub Actions config provided.
-- Works in any pipeline: GitHub Actions, GitLab, CircleCI, Jenkins.
+
 
 ## What is tested?
 
-- Login to Kandji
-- Verify that Dashboard is displayed
+- Login to the 
+- Devices
+- Blueprints
+- Library, etc.
 
 ## Next steps
 
-✅ Add API integration using Kandji API  
-✅ Add more Page Objects (Devices, Blueprints, Library, etc.)  
+✅ Add proper authorization  
+✅ Add more functinality
 ✅ Add test reporting (Allure, HTML)  
 ✅ Add parallel execution support  
-✅ Use CI Secrets to manage credentials  
+
 
